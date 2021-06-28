@@ -1,1 +1,19 @@
-<p>graph-one works!</p>
+<div class="row">
+  <div class="col-6">
+    <app-donut title="Sales"></app-donut>
+  </div>
+  <div class="col-6">
+    <app-donut title="Purchases"
+               [labels]="purchaseLabels"
+               [data]="purchaseData"></app-donut>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-6">
+    <app-donut></app-donut>
+  </div>
+  <div class="col-6">
+    <app-donut></app-donut>
+  </div>
+</div>

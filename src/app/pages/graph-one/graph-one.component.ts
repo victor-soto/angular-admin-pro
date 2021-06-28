@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-graph-one',
@@ -6,11 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class GraphOneComponent implements OnInit {
+export class GraphOneComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  public purchaseLabels: string[] = [ 'Download Sales', 'In-Store Sales', 'Mail-Order Sales' ]
+  public purchaseData: number[][] = [ [ 15, 20, 65 ] ];
 
 }
+
