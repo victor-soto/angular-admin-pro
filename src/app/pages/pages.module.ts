@@ -10,6 +10,7 @@ import { ProgressComponent } from '../pages/progress/progress.component';
 import { GraphOneComponent } from '../pages/graph-one/graph-one.component';
 import { PagesComponent } from '../pages/pages.component';
 import { FormsModule } from '@angular/forms';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -17,13 +18,15 @@ import { FormsModule } from '@angular/forms';
     DashboardComponent,
     ProgressComponent,
     GraphOneComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ],
   exports: [
     DashboardComponent,
     ProgressComponent,
     GraphOneComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ],
   imports: [
     FormsModule,
