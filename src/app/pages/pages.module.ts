@@ -11,6 +11,8 @@ import { GraphOneComponent } from '../pages/graph-one/graph-one.component';
 import { PagesComponent } from '../pages/pages.component';
 import { FormsModule } from '@angular/forms';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     ProgressComponent,
     GraphOneComponent,
     PagesComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromisesComponent,
+    RxjsComponent
   ],
   exports: [
     DashboardComponent,
